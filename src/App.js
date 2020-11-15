@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import Header from ".Header/Header";
+import Header from "./Header/Header";
 import SearchBar from "./SearchBar/SearchBar";
 import BookList from "./BookList/BookList";
 import Filter from "./Filter/Filter";

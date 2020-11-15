@@ -24,6 +24,7 @@ export default class SearchBar extends Component {
               handleSearchSubmit(submitEvent, searchInput)
             }
           >
+            <label>Search:</label>
             <input
               className="searchbar_input"
               type="text"
@@ -31,8 +32,8 @@ export default class SearchBar extends Component {
               name="search"
               onChange={this.handleSearchInput}
             />
-            <button type="submit">
-              <i className="fa fa-search search_button" />
+            <button type="submit" className="search_button">
+              Go!
             </button>
           </form>
         </div>

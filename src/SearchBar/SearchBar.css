@@ -19,6 +19,7 @@
   width: 175px;
   font-size: 16px;
   outline: none;
+  border-radius: 8px;
 }
 
 .searchbar_input:hover {
@@ -27,9 +28,18 @@
 }
 
 .search_button {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .search_button:hover {
-  text-shadow: 2px 2px;
+  color: rgb(89, 106, 126);
+}
+
+label {
+  font-size: 20px;
+}
+
+button {
+  padding: 1px;
+  border-radius: 8px;
 }

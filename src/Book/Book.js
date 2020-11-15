@@ -65,7 +65,7 @@ export default function Book(props) {
           <div className="book_info">
             <h2 className="book_title">{title}</h2>
             <h4 className="book_author">{author}</h4>
-            <div className="book_cost">{cost}</div>
+            <h5 className="book_cost">{cost}</h5>
             <p className="book_snippet">{snippet}</p>
           </div>
         </li>
