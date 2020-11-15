@@ -94,6 +94,7 @@ export default class App extends Component {
 
     return (
       <div>
+        <Header />
         <SearchBar handleSearchSubmit={this.handleSearchSubmit} />
         {responsiveFilter}
         <BookList bookResults={bookResults} />
