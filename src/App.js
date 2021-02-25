@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-
+import config from "../config";
 import Header from "./Header/Header";
 import SearchBar from "./SearchBar/SearchBar";
 import BookList from "./BookList/BookList";
@@ -20,7 +20,7 @@ export default class App extends Component {
       searchQuery: searchInput,
     });
     const baseUrl = `https://www.googleapis.com/books/v1/volumes`;
-    const key = "AIzaSyBD8-kkEeKvgBdhiEK0DCNX6mia5EuWii0";
+    const key = config.API_KEY;
     const formattedSearchUrl = this.formatQuery(baseUrl, searchInput, key);
     fetch(formattedSearchUrl)
       .then((response) => {
